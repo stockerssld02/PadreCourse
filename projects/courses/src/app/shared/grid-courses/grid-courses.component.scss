@@ -9,6 +9,19 @@
     background-color: aqua;
 }
 
+.grid-container .badge {
+    /* Tus estilos para .badge aquí */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #fcd34d;
+    color: #ff9900;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
 @media screen and (min-width: 1025px) and (max-width: 1360px) {
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
