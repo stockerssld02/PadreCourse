@@ -33,11 +33,15 @@
     color: #333333;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
     margin-top: -40px;
-    margin-bottom: -20px;
     border-radius: 10px;
     padding: 10px;
     max-height: 106px;
     overflow: hidden;
+    width: 18vw;
+}
+
+.info span {
+    margin-top: -1rem;
 }
 
 .info h3 {
@@ -53,4 +57,28 @@
     font-size: 12px;
     font-weight: normal;
     margin: 0;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1360px) {
+    .info {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .info {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .info {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .info {
+        width: auto;
+    }
 }
